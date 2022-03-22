@@ -1,27 +1,35 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
 /* nav, search-con div, about-us -Sam */
-
-
-
- /* Hospitals, messageUs, ContactUs, footer - Pauline */
-.hospitalss{
-    background: #E5D9F2;
-    text-align: center;
+.navbar {
+  background-color: #07081e;
 }
-.hos-h2{
-    color: #0047FF;
-    
+
+.navbar .active {
+  color: #0047ff !important;
 }
-.hospital-cards{
-    width: 80vw;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
+
+.banner {
+  height: 100vh;
 }
-.hospital-card{
-    width: 25vw;
+
+/* Hospitals, messageUs, ContactUs, footer - Pauline */
+.hospitalss {
+  background: #e5d9f2;
+  text-align: center;
+}
+.hos-h2 {
+  color: #0047ff;
+}
+.hospital-cards {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.hospital-card {
+  width: 25vw;
 }
