@@ -13,70 +13,86 @@ body {
 }
 
 .banner {
+  background: #07081e url("../images/bannerImg.jpg") no-repeat center/cover;
+  min-height: 100vh;
+}
+
+.banner-content {
   height: 100vh;
 }
 
+.caption {
+  font-size: 4em;
+  font-weight: 800;
+  text-shadow: 2px 2px 4px #000000;
+  width: 60vw;
+}
 
- /* Hospitals, messageUs, ContactUs, footer - Pauline */
-.hospitalss{
-    background: #E5D9F2;
-    text-align: center;
+.banner-search {
+  background-color: #e5d9f2;
+  width: 40vw;
 }
-.hos-h2{
-    color: #0047FF;
-    
+
+.search-icon {
+  width: 5vw;
 }
-.hospital-cards{
+
+/* Hospitals, messageUs, ContactUs, footer - Pauline */
+.hospitalss {
+  background: #e5d9f2;
+  text-align: center;
+}
+.hos-h2 {
+  color: #0047ff;
+}
+.hospital-cards {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.hospital-card {
+  width: 25vw;
+}
+.card {
+  border: 1 px solid black !important;
+  border-radius: 5%;
+}
+.messageUs {
+  text-align: center;
+}
+.messageTextarea {
+  width: 100vw;
+}
+.contactUs {
+  background: #f5efff;
+  text-align: center;
+}
+.contactinfo {
+  border: 1px solid #0047ff;
+  border-radius: 5%;
+  width: 45%;
+  margin: auto;
+}
+.fa1 {
+  text-decoration: none;
+}
+.landing-footer {
+  background: #040a1c;
+  text-align: center;
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  .hospital-cards {
+    /* display: flex; */
+    flex-direction: column;
+  }
+  .hospital-card {
     width: 80vw;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
+    margin-bottom: 5px;
+  }
+  .contactinfo {
+    width: 70%;
+  }
 }
-.hospital-card{
-    width: 25vw;
-    
-}
-.card{
-    border: 1 px solid black !important;
-    border-radius: 5%;
-}
-.messageUs{
-    text-align: center;
-}
-.messageTextarea{
-    width: 100vw;
-}
-.contactUs{
-    background: #F5EFFF;
-    text-align: center;
-}
-.contactinfo{
-    border: 1px solid #0047FF;
-    border-radius: 5%;
-    width: 45%;
-    margin: auto;
-}
-.fa1{
-    text-decoration: none;
-}
-.landing-footer{
-    background: #040A1C;
-    text-align: center;
-    color: white
-}
-
-@media only screen and (max-width : 767px){
-    .hospital-cards{
-        /* display: flex; */
-        flex-direction: column;
-    }
-    .hospital-card{
-        width: 80vw;
-        margin-bottom: 5px;
-    }
-    .contactinfo{
-        width: 70%;
-    }
-}
-
-
