@@ -1,10 +1,20 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
 /* nav, search-con div, about-us -Sam */
+.navbar {
+  background-color: #07081e;
+}
 
+.navbar .active {
+  color: #0047ff !important;
+}
+
+.banner {
+  height: 100vh;
+}
 
 
  /* Hospitals, messageUs, ContactUs, footer - Pauline */
@@ -68,3 +78,5 @@ body{
         width: 70%;
     }
 }
+
+
