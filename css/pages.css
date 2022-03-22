@@ -90,5 +90,12 @@ nav button{
     top: 200%;
     left: 70%;
 }
+.socials{
+    text-align: center;
+}
+.socialimg{
+    height: 30px;
+    
+}
 
 /* location,icons -Rose */
