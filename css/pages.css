@@ -1,6 +1,28 @@
 /* nav -Kabui */
+.navbar-brand{
+    margin-left: 20px;
+    padding-top: 15px;
+}
 
-
+.nav-link{
+ color: #fff;
+ font-size: 17px;
+ padding-top: 8px;
+ font-style: normal;
+ 
+}
+a:hover{
+    color: #6E7AEA;
+}
+nav button{
+    background-color: #6E7AEA;
+    outline: none;
+    border-radius: 5px;
+    height: 45px;
+}
+.background{
+height: 70%;
+}
 
 /* content&services -Cate */
 
