@@ -17,6 +17,14 @@
  .pcontent{
      text-align: center;
  }
+ .nbh2{
+     text-align: center;
+     font-weight: bold;
+ }
+ .servicescontainer{
+     background-color: rgb(203, 220, 228);
+     height: 600px;
+ }
     
 
 
