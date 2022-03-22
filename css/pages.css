@@ -1,6 +1,30 @@
 /* nav -Kabui */
-
-
+.body{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+ .nav-link{
+ color: #fff;
+ font-size: 18px;
+ padding-top: 8px;
+ font-style: normal;
+ 
+}
+a:hover{
+    color: #6E7AEA;
+}
+nav button{
+    background-color: #6E7AEA;
+    outline: none;
+    border-radius: 3px;
+    height: 40px;
+    border-color:  #fff;
+    border-width: 3px;
+}
 
 /* content&services -Cate */
 .nbhihosp{
