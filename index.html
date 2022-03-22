@@ -1,71 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <!--nav, search-con div, about-us -Sam -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-md-5 text-uppercase fw-bold" href="#">
+          <img
+            src="./images/plusLogo.webp"
+            alt="Logo"
+            width="30"
+            class="d-inline-block align-text-top"
+          />
+          <span class="hos-h2">afya</span>Kenya</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end me-5 fw-bold"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="#">Contacts</a>
+          </div>
+        </div>
+      </div>
+    </nav>
 
     <!-- Hospitals, messageUs, ContactUs, footer - Pauline -->
     <div class="hospitalss">
-        <h2><span class="hos-h2">H</span>OSPITALS</h2>
-        <div class="hospital-cards">
-            <div class="card hospital-card">
-                <img class="card-img-top" src="./images/aghakan.jpeg" alt="">
-                <div class="card-body">                            
-                    <h3 class="card-title">Hospital name</h3>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <h4 class="card-title">Rating</h4>
-                    <button class="btn btn-primary">View More</button>
-                </div>
-            </div>
-            <div class="card hospital-card">
-                <img class="card-img-top" src="./images/aghakan.jpeg" alt="">
-                <div class="card-body">                    
-                    <h3 class="card-title">Hospital name</h3>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <h4 class="card-title">Rating</h4>
-                    <button class="btn btn-primary">View More</button>
-                </div>
-            </div>
-            <div class="card hospital-card">
-                <img class="card-img-top" src="./images/aghakan.jpeg" alt="">
-                <div class="card-body">                    
-                    <h3 class="card-title">Hospital name</h3>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <h4 class="card-title">Rating</h4>
-                    <button class="btn btn-primary">View More</button>
-                </div>
-            </div>
+      <h2><span class="hos-h2">H</span>OSPITALS</h2>
+      <div class="hospital-cards">
+        <div class="card hospital-card">
+          <img class="card-img-top" src="./images/aghakan.jpeg" alt="" />
+          <div class="card-body">
+            <h3 class="card-title">Hospital name</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h4 class="card-title">Rating</h4>
+            <button class="btn btn-primary">View More</button>
+          </div>
         </div>
-        
+        <div class="card hospital-card">
+          <img class="card-img-top" src="./images/aghakan.jpeg" alt="" />
+          <div class="card-body">
+            <h3 class="card-title">Hospital name</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h4 class="card-title">Rating</h4>
+            <button class="btn btn-primary">View More</button>
+          </div>
+        </div>
+        <div class="card hospital-card">
+          <img class="card-img-top" src="./images/aghakan.jpeg" alt="" />
+          <div class="card-body">
+            <h3 class="card-title">Hospital name</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h4 class="card-title">Rating</h4>
+            <button class="btn btn-primary">View More</button>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="messageUs">
-        <h2><span class="hos-h2">M</span>essage Us</h2>
-        <form action=""  id="messageForm">
-            <div class="">
-                <input type="text" id="messageName" placeholder="Name..." name="Name">
-                <input type="email" id="messageEmail" placeholder="Email..." name="Email">
-            </div>
-            <div class="">
-                <textarea id="messageText" cols="10" rows="8" placeholder="Your message here..." name="Message"></textarea>
-            </div>
-            <div class="messsage-sbmtbtn">
-                <button id="" type="submit">SUBMIT</button>
-            </div>
-            
-           
-        </form>
+      <h2><span class="hos-h2">M</span>essage Us</h2>
+      <form action="" id="messageForm">
+        <div class="">
+          <input type="text" id="messageName" placeholder="Name..." name="Name" />
+          <input type="email" id="messageEmail" placeholder="Email..." name="Email" />
+        </div>
+        <div class="">
+          <textarea
+            id="messageText"
+            cols="10"
+            rows="8"
+            placeholder="Your message here..."
+            name="Message"
+          ></textarea>
+        </div>
+        <div class="messsage-sbmtbtn">
+          <button id="" type="submit">SUBMIT</button>
+        </div>
+      </form>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="./js/script.js"></script>   
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
