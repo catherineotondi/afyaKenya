@@ -16,3 +16,12 @@ body{
     color: #0047FF;
     
 }
+.hospital-cards{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.hospital-card{
+    width: 25vw;
+}
