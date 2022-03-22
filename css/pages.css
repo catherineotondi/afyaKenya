@@ -43,5 +43,52 @@ nav button{
     margin: 20px;
     border-radius: 20px;
 }
+.branch{
+    text-align: center;
+    margin: 20px;
+}
+.brdisplay{
+    color: black;
+    opacity: 0.5;
+    border: 3px solid red;
+    background-color: white;
+    -ms-transform: translate(10%, 10%);
+    transform: translate(5%, 5%);
+    position: absolute;
+    height: 70px;
+    width: 20%;
+    font-weight: 700;
+    top: 200%;
+    left: 10%;
+    /* right: 20%; */
+}
+.brdisplay7{
+    color: black;
+    opacity: 0.5;
+    border: 3px solid red;
+    background-color: white;
+    -ms-transform: translate(10%, 10%);
+    transform: translate(5%, 5%);
+    position: absolute;
+    height: 70px;
+    width: 20%;
+    font-weight: 700;
+    top: 200%;
+    left: 40%;
+}
+.brdisplay8{
+    color: black;
+    opacity: 0.5;
+    border: 3px solid red;
+    background-color: white;
+    -ms-transform: translate(10%, 10%);
+    transform: translate(5%, 5%);
+    position: absolute;
+    height: 70px;
+    width: 20%;
+    font-weight: 700;
+    top: 200%;
+    left: 70%;
+}
 
 /* location,icons -Rose */
