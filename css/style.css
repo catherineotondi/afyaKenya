@@ -24,4 +24,47 @@ body{
 }
 .hospital-card{
     width: 25vw;
+    
+}
+.card{
+    border: 1 px solid black !important;
+    border-radius: 5%;
+}
+.messageUs{
+    text-align: center;
+}
+.messageTextarea{
+    width: 100vw;
+}
+.contactUs{
+    background: #F5EFFF;
+    text-align: center;
+}
+.contactinfo{
+    border: 1px solid #0047FF;
+    border-radius: 5%;
+    width: 45%;
+    margin: auto;
+}
+.fa1{
+    text-decoration: none;
+}
+.landing-footer{
+    background: #040A1C;
+    text-align: center;
+    color: white
+}
+
+@media only screen and (max-width : 767px){
+    .hospital-cards{
+        /* display: flex; */
+        flex-direction: column;
+    }
+    .hospital-card{
+        width: 80vw;
+        margin-bottom: 5px;
+    }
+    .contactinfo{
+        width: 70%;
+    }
 }
