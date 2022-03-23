@@ -1,0 +1,98 @@
+.body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  nav button {
+    background-color: #6e7aea !important;
+    outline: none;
+    border-radius: 3px;
+    height: 50px;
+    border-color: #fff;
+    border-width: 3px;
+    
+  }
+  
+  .nav-link{
+      color: #fff !important;
+      justify-content: space-between;
+      
+  }
+  .nav-link :hover {
+      color: #6e7aea !important;
+    }
+    .background{
+        background-image: url(../images/dcoptic.jpg);
+        height: 50vh;
+        width: auto;
+        background-size: cover;
+        background-position: bottom;
+    
+    
+    }
+    .nbhihosp {
+        background-image: linear-gradient(white, rgb(35, 90, 27));
+      }
+      .logoo {
+        text-align: center;
+      }
+      .logoo img {
+        width: 200px;
+        height: 150px;
+      }
+      .nbih {
+        text-align: center;
+      }
+      .pcontent {
+        text-align: center;
+      }
+      .nbh2 {
+        text-align: center;
+        font-weight: bold;
+      }
+      .servicescontainer {
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-left: 60px;
+      }
+      .serviceimages {
+        padding: 10px;
+        width: 300px;
+        height: 300px;
+      }
+      .serviceimages img {
+        width: 250px;
+        height: 250px;
+        border-radius: 20px;
+        border: 3px solid black;
+        box-shadow: red red;
+      }
+      #coptic{
+        height: 400px;
+        object-fit: cover;
+      }
+      .socials {
+        text-align: center;
+      }
+      .socialimg {
+        height: 30px;
+      }
+      .review {
+        margin: 50px;
+        background-color: darkgray;
+        height: 200px;
+        text-align: center;
+      }
+      .review-view {
+        text-align: center;
+      }
+      
+      /* location,icons -Rose */
+      .review-view {
+        margin: auto;
+      }
+      
