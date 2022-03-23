@@ -184,7 +184,7 @@
     <section id="landing-messageUs" class="messageUs my-5">
       <h2 class="text-center fw-bold my-3 py-3"><span class="hos-h2">M</span>essage Us</h2>
       <div class="container">
-        <form action="#" id="messageForm">
+        <form action="https://formspree.io/f/xknyzwva" method="post" id="myForm" target="_blank">
           <div class="row">
             <div class="mb-3 col-md">
               <label for="landing-name" class="form-label">Name:</label>
@@ -192,6 +192,7 @@
                 type="text"
                 class="form-control"
                 id="landing-name"
+                name="name"
                 placeholder="Your name...."
               />
             </div>
@@ -201,13 +202,14 @@
                 type="email"
                 class="form-control"
                 id="landing-email"
+                name="email"
                 placeholder="name@example.com"
               />
             </div>
           </div>
           <div class="mb-3">
             <label for="landing-message" class="form-label">Message</label>
-            <textarea class="form-control" id="landing-message" rows="3"></textarea>
+            <textarea class="form-control" id="landing-message" name="message" rows="3"></textarea>
           </div>
           <div class="messsage-sbmtbtn mb-3">
             <button id="landing-submit" type="submit" class="btn btn-primary fw-bold">
