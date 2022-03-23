@@ -28,6 +28,21 @@ body {
   width: 60vw;
 }
 
+@media screen and (max-width: 741px) {
+  .caption {
+    font-size: 4em;
+    font-weight: 800;
+    width: 90vw;
+  }
+}
+@media screen and (max-width: 522px) {
+  .caption {
+    font-size: 3em;
+    font-weight: 800;
+    width: 95vw;
+  }
+}
+
 .banner-search {
   background-color: #fff;
   width: 60vw;
@@ -66,12 +81,12 @@ body {
   border: 1 px solid black !important;
   border-radius: 5%;
 }
-.messageUs {
+/* .messageUs {
   text-align: center;
-}
-.messageTextarea {
+} */
+/* .messageTextarea {
   width: 100vw;
-}
+} */
 .contactUs {
   background: #f5efff;
   text-align: center;
