@@ -82,13 +82,9 @@ body {
   display: flex;
   justify-content: space-around;
 }
-/*.messageUs {
+.messsage-sbmtbtn{
   text-align: center;
 }
-*/
-/* .messageTextarea {
-  width: 100vw;
-} */
 .contactUs {
   background: #f5efff;
   text-align: center;
