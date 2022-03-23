@@ -58,7 +58,7 @@
         </div>
         
       </div>
-      <button type="button" class="btn btn-primary btn-sm"><strong>get back</strong></button>
+      <button type="button" onclick="window.location.href='../index.html'" class="btn btn-primary btn-sm"><strong>get back</strong></button>
      
     </nav>
     <div class="background">
@@ -168,24 +168,92 @@
       <a href="#"><img src="../images/linkedin-brands.svg" class="socialimg" alt="" /></a>
       <a href="#"><img src="../images/facebook-brands.svg" class="socialimg" alt="" /></a>
     </div>
+    <h2 class="locate fw-bold py-5 text-center">Location</h2>
+    <div class="akanlocation text-center row" id="Contact us">       
+      <iframe  class="col-md" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.179033111803!2d36.7976586!3d-1.2978588!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xded383b3b3820aa1!2sCoptic%20Hospital-Main%20Hospital!5e0!3m2!1sen!2ske!4v1648065225650!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+       <div class="locationinfo col-md">
+           <p>
+               <strong>WARD VISITING HOURS</strong>:2:00PM – 4:00PM<br>
+               <strong>TELEPHONE</strong>:(+254) 703082000<br>
+               <strong>ADDRESS</strong>:Main Hospital - Ngong Road:<BR>
+                   <strong>EMAIL</strong>: <a href="info@coptichospitals.org
 
-    <!-- review -->
-    <div class="review" id="review">
-      <h2 class="review-view">Reviews and Ratings</h2>
-      <p class="rate">Rating:3/5</p>
-      <a href="#"> <img src="../images/star-solid.svg" class="socialimg" alt="" /> </a>
-      <a href="#"> <img src="../images/star-solid.svg" class="socialimg" alt="" /> </a>
-      <a href="#"> <img src="../images/star-solid.svg" class="socialimg" alt="" /> </a>
-      <p>3 people have rated</p>
-      <p>To leave rating click <a href="#">here</a></p>
+                   "><span class="emailtext">info@coptichospitals.org
+
+                  </span></a>
+           </p>
+       </div>
+       
+   </div>
+
+    
+   <div class="socials" id="contact">
+    <h2>Socials</h2>
+    <a href="#"><img src="../images/globe-solid.svg" class="socialimg" alt="" /></a>
+    <a href="#"> <img src="../images/twitter-square-brands.svg" class="socialimg" alt="" /> </a>
+    <a href="#"><img src="../images/linkedin-brands.svg" class="socialimg" alt="" /></a>
+    <a href="#"><img src="../images/facebook-brands.svg" class="socialimg" alt="" /></a>
+  </div>
+
+  <!-- review -->
+  <section class="review mt-5" id="review">
+      <h2 class="review-view pt-5">Reviews and Ratings</h2>
+        <div class="container rating-b">
+          <p class="rate">Rating:3/5</p>
+          <p>3 people have rated</p>
+          <p class="rating-t py-2 my-2">To leave rating click</p>
+           <span class=" form-link fw-bold" data-bs-toggle="modal" data-bs-target="#feedback-modal">here</span>
+        </div>
+  </section>
+  <section class="modal-section">
+    <div class="modal fade" id="feedback-modal" tabindex="-1" aria-labelledby="feedback-modal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Review</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <form action="#" method="post" id="ratingsForm">
+
+                <div class="mb-3 col-md">
+          <label for="pages-name" class="form-label">Name:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="landing-name"
+            name="name"
+            placeholder="Your name...."
+          />
+                </div>
+                <div class="mb-3 col-md">
+          <label for="pages-email" class="form-label">Email:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="landing-email"
+            name="email"
+            placeholder="name@example.com"
+          />
+                </div>
+
+                <div class="mb-3">
+                  <label for="pages-message" class="form-label">Message</label>
+                  <textarea class="form-control" id="landing-message" name="message" rows="3"></textarea>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button id="feedbackBtn" type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <!-- location,icons -Rose -->
-    <iframe
-      class="location"
-      src="https://www.google.com/maps/place/Nairobi+Hospital/@-1.2953246,36.8028635,17z/data=!3m1!4b1!4m5!3m4!1s0x182f10c0211b5bdf:0x9879e6f1e1de9c0c!8m2!3d-1.2953246!4d36.8050522?hl=en"
-      loading="lazy"
-    ></iframe>
+   
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
