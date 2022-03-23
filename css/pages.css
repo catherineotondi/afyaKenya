@@ -180,8 +180,9 @@ nav button {
 .review-view {
   margin: auto;
 }
+/*
 .akanlocation{
-  /* position: relative; */
+   position: relative; 
    height: 400px;
    display: flex;
    flex-wrap: wrap-reverse;
@@ -196,19 +197,20 @@ color:black;
 font-size: 40px;
 font-family: 'Merriweather Sans', sans-serif;
 }
-.locationinfo{
-/* float: right; */
-color: white;
-font-size: 20px;
-background-image:url(../pages/img/road.jpg);
-background-size: cover;
-height: 350px;
-width: 650px;
-text-align: center;
-padding-top: 60px;
-
+*/
+.locationinfo {
+  /* float: right;  */
+  color: white;
+  font-size: 20px;
+  background-image: url(../pages/img/road.jpg);
+  background-size: cover;
+  height: 350px;
+  /* width: 650px; */
+  text-align: center;
+  padding-top: 60px;
 }
-*/ .emailtext {
+
+.emailtext {
   color: white;
   text-decoration: none;
 }
