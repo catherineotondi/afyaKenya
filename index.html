@@ -74,66 +74,97 @@
     </section>
     <section class="About-us">
       <div class="container text-center py-5">
-        <h2 class="fw-bold text-capitalize py-4"><span class="hos-h2">a</span>bout <span class="hos-h2">U</span>s</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis illo blanditiis quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nisi maiores sint. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat provident magni quasi soluta vel consequuntur reprehenderit repellendus velit exercitationem, quos officia corporis fugiat rem, recusandae ab laborum voluptatem ducimus sed.</p>
+        <h2 class="fw-bold text-capitalize py-4">
+          <span class="hos-h2">a</span>bout <span class="hos-h2">U</span>s
+        </h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis illo blanditiis quo.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nisi maiores sint. Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Repellat provident magni quasi soluta
+          vel consequuntur reprehenderit repellendus velit exercitationem, quos officia corporis
+          fugiat rem, recusandae ab laborum voluptatem ducimus sed.
+        </p>
       </div>
     </section>
 
     <!-- Hospitals, messageUs, ContactUs, footer - Pauline -->
     <div class="hospitalss pb-3 mt-5">
-        <h2><span class="hos-h2">H</span>OSPITALS</h2>
-        <div class="hospital-cards">
-            <div class="card hospital-card">
-                <img class="card-img-top" src="./images/aghakan.jpeg" alt="">
-                <div class="card-body">                            
-                    <h3 class="card-title">Hospital name</h3>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <h4 class="card-title">Rating</h4>
-                    <button class="btn btn-primary">View More</button>
-                </div>
-            </div>
-            <div class="card hospital-card">
-                <img class="card-img-top" src="./images/aghakan.jpeg" alt="">
-                <div class="card-body">                    
-                    <h3 class="card-title">Hospital name</h3>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <h4 class="card-title">Rating</h4>
-                    <button class="btn btn-primary">View More</button>
-                </div>
-            </div>
-            <div class="card hospital-card">
-                <img class="card-img-top" src="./images/aghakan.jpeg" alt="">
-                <div class="card-body">                    
-                    <h3 class="card-title">Hospital name</h3>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <h4 class="card-title">Rating</h4>
-                    <button class="btn btn-primary">View More</button>
-                </div>
-            </div>
+      <h2><span class="hos-h2">H</span>OSPITALS</h2>
+      <div class="hospital-cards">
+        <div class="card hospital-card">
+          <img class="card-img-top" src="./images/aghakan.jpeg" alt="" />
+          <div class="card-body">
+            <h3 class="card-title">Hospital name</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h4 class="card-title">Rating</h4>
+            <button class="btn btn-primary">View More</button>
+          </div>
+        </div>
+        <div class="card hospital-card">
+          <img class="card-img-top" src="./images/aghakan.jpeg" alt="" />
+          <div class="card-body">
+            <h3 class="card-title">Hospital name</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h4 class="card-title">Rating</h4>
+            <button class="btn btn-primary">View More</button>
+          </div>
+        </div>
+        <div class="card hospital-card">
+          <img class="card-img-top" src="./images/aghakan.jpeg" alt="" />
+          <div class="card-body">
+            <h3 class="card-title">Hospital name</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h4 class="card-title">Rating</h4>
+            <button class="btn btn-primary">View More</button>
+          </div>
         </div>
       </div>
     </div>
-    <div class="messageUs">
-      <h2><span class="hos-h2">M</span>essage Us</h2>
-      <form action="" id="messageForm">
-        <div class="">
-          <input type="text" id="messageName" placeholder="Name..." name="Name" />
-          <input type="email" id="messageEmail" placeholder="Email..." name="Email" />
-        </div>
-        <div class="messageTextarea mt-3">
-          <textarea
-            id="messageText"
-            cols=""
-            rows="6"
-            placeholder="Your message here..."
-            name="Message"
-          ></textarea>
-        </div>
-        <div class="messsage-sbmtbtn mb-3">
-          <button id="" type="submit">SUBMIT</button>
-        </div>
-      </form>
-    </div>
+    <section class="messageUs py-5">
+      <h2 class="text-center fw-bold py-4"><span class="hos-h2">M</span>essage Us</h2>
+      <div class="container px-md-5">
+        <form action="#" id="messageForm">
+          <div class="row">
+            <div class="mb-3 col-md">
+              <label for="landing-name" class="form-label">Name:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="landing-name"
+                aria-describedby="user-name"
+              />
+            </div>
+            <div class="mb-3 col-md">
+              <label for="landing-email" class="form-label">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="landing-email"
+                aria-describedby="user-email"
+              />
+            </div>
+          </div>
+
+          <!--           <input type="text" id="messageName" placeholder="Name..." name="Name" />
+          <input type="email" id="messageEmail" placeholder="Email..." name="Email" /> -->
+
+          <div class="mb-3 messageTextarea">
+            <label for="landing-message" class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              id="landing-message"
+              rows="3"
+              placeholder="Your message here..."
+            ></textarea>
+          </div>
+
+          <div class="messsage-sbmtbtn mb-3">
+            <button id="" type="submit" class="btn btn-primary fw-bold">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
     <div class="contactUs pb-3">
       <h2><span class="hos-h2 mt-3">C</span>ontact Us</h2>
       <div class="contactinfo mt-3">
