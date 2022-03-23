@@ -60,6 +60,23 @@ body {
   color: #8b8b8b;
 }
 
+.dark-mode {
+  background-color: #181818;
+  color: rgb(247, 247, 247);
+}
+
+.darkmode-toggle {
+  width: 50px;
+  right: 1vw;
+  left: auto;
+  bottom: 1vh;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
 /* Hospitals, messageUs, ContactUs, footer - Pauline */
 .hospitalss {
   background: #e5d9f2;
@@ -73,7 +90,7 @@ body {
   width: 25vw;
 }
 .card {
-  border: 1 px solid black !important;
+  border: 1px solid black !important;
   border-radius: 5%;
 }
 .caroitem {
