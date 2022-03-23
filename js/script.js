@@ -83,8 +83,19 @@ $(document).ready(function () {
     };
 
     let getAverage = (totalRating, reviewerCount) => {
-      let avarage = totalRating / reviewerCount;
-      c(Math.floor(avarage));
+      let avarage = Math.floor(totalRating / reviewerCount);
+      $("#avarageOut").text(avarage.toString());
+      outputComments(message, name);
+    };
+
+    let outputComments = (message, name) => {
+      $("#feedbackOut").prepend(`
+          <div class="userOutContainer container">
+            <p class="userName">${name}</p>
+            <p class="userComment">${message}</p>
+          </div>
+      `);
+      $("#userNumOut").text(reviewerCount.toString());
     };
 
     userCreate(name, email, rating, message);
