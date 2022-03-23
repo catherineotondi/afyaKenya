@@ -129,6 +129,9 @@
     font-size: 1.2em;
   }
 }
+.col-md{
+  height: 400px;
+}
 
 .rating-t {
   display: inline-block;
