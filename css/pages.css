@@ -4,8 +4,6 @@
   padding: 0;
 }
 
-
-
 nav button {
   background-color: #6e7aea !important;
   outline: none;
@@ -13,25 +11,21 @@ nav button {
   height: 50px;
   border-color: #fff;
   border-width: 3px;
-  
 }
 
-.nav-link{
-    color: #fff !important;
-    justify-content: space-between;
-    
+.nav-link {
+  color: #fff !important;
+  justify-content: space-between;
 }
 .nav-link :hover {
-    color: #6e7aea !important;
-  }
-.background{
-    background-image: url(../images/nairobi.jpg);
-    height: 50vh;
-    width: auto;
-    background-size: cover;
-    background-position: center;
-
-
+  color: #6e7aea !important;
+}
+.background {
+  background-image: url(../images/nairobi.jpg);
+  height: 50vh;
+  width: auto;
+  background-size: cover;
+  background-position: center;
 }
 /* content&services -Cate */
 .nbhihosp {
@@ -72,16 +66,16 @@ nav button {
   border: 3px solid black;
 }
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width: 767px) {
   .serviceimages img {
     height: 100px;
   }
 }
-@media only screen and (max-width:424px){
+@media only screen and (max-width: 424px) {
   .serviceimages img {
     height: 75px;
   }
-  .serviceimages label{
+  .serviceimages label {
     font-size: smaller;
   }
 }
@@ -92,7 +86,7 @@ nav button {
   justify-content: space-around;
   position: relative;
 }
-.branch1{
+.branch1 {
   width: 30%;
 }
 .branimg {
@@ -103,7 +97,7 @@ nav button {
 .branch {
   text-align: center;
 }
-@media only screen and (max-width:767px){
+@media only screen and (max-width: 767px) {
   .branimg {
     height: 100px;
   }
@@ -122,8 +116,8 @@ nav button {
   top: 30%;
   left: 5%;
   right: 20%;
-} 
- .brdisplay7 {
+}
+.brdisplay7 {
   color: black;
   opacity: 0.5;
   border: 3px solid black;
@@ -171,33 +165,32 @@ nav button {
 .review-view {
   margin: auto;
 }
-.akanlocation{
+/* .akanlocation {
   position: relative;
-   height: 400px;
+  height: 400px;
 }
-.akanlocation img{
- padding-left: 50px;
+.akanlocation img {
+  padding-left: 50px;
 }
-.locate{
-font-weight: bolder;
-text-align: center;
-color:black;
-font-size: 40px;
-font-family: 'Merriweather Sans', sans-serif;
+.locate {
+  font-weight: bolder;
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  font-family: "Merriweather Sans", sans-serif;
+} */
+.locationinfo {
+  /*  float: right; */
+  color: white;
+  font-size: 20px;
+  background-image: url(../pages/img/road.jpg);
+  background-size: cover;
+  height: 350px;
+  /* width: 650px; */
+  text-align: center;
+  padding-top: 60px;
 }
-.locationinfo{
-float: right;
-color: white;
-font-size: 20px;
-background-image:url(../pages/img/road.jpg);
-background-size: cover;
-height: 350px;
-width: 650px;
-text-align: center;
-padding-top: 60px;
-
-}
-.emailtext{
+*/ .emailtext {
   color: white;
   text-decoration: none;
-  }
+}
