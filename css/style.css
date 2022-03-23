@@ -92,6 +92,7 @@ body {
 .contactUs {
   background: #f5efff;
   text-align: center;
+  min-height: 80vh;
 }
 .contactinfo {
   border: 1px solid #0047ff;
