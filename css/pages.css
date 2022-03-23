@@ -181,8 +181,10 @@ nav button {
   margin: auto;
 }
 .akanlocation{
-  position: relative;
+  /* position: relative; */
    height: 400px;
+   display: flex;
+   flex-wrap: wrap-reverse;
 }
 .akanlocation img{
  padding-left: 50px;
@@ -195,7 +197,7 @@ font-size: 40px;
 font-family: 'Merriweather Sans', sans-serif;
 }
 .locationinfo{
-float: right;
+/* float: right; */
 color: white;
 font-size: 20px;
 background-image:url(../pages/img/road.jpg);
