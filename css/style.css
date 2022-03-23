@@ -28,13 +28,36 @@ body {
   width: 60vw;
 }
 
+@media screen and (max-width: 741px) {
+  .caption {
+    font-size: 4em;
+    font-weight: 800;
+    width: 90vw;
+  }
+}
+@media screen and (max-width: 522px) {
+  .caption {
+    font-size: 3em;
+    font-weight: 800;
+    width: 95vw;
+  }
+}
+
 .banner-search {
-  background-color: #e5d9f2;
-  width: 40vw;
+  background-color: #fff;
+  width: 60vw;
+  height: 40px;
+  border-radius: 30px;
+  border: 1px solid rgb(110, 110, 110);
+}
+
+.banner-search-input {
+  border: none;
+  border-radius: 30px 0 0 30px;
 }
 
 .search-icon {
-  width: 5vw;
+  color: #8b8b8b;
 }
 
 /* Hospitals, messageUs, ContactUs, footer - Pauline */
@@ -45,12 +68,7 @@ body {
 .hos-h2 {
   color: #0047ff;
 }
-.hospital-cards {
-  width: 80vw;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-}
+
 .hospital-card {
   width: 25vw;
 }
@@ -58,12 +76,19 @@ body {
   border: 1 px solid black !important;
   border-radius: 5%;
 }
-.messageUs {
+.caroitem {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+/*.messageUs {
   text-align: center;
 }
-.messageTextarea {
+*/
+/* .messageTextarea {
   width: 100vw;
-}
+} */
 .contactUs {
   background: #f5efff;
   text-align: center;
