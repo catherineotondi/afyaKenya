@@ -6,11 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <!--nav, search-con div, about-us -Sam -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
       <div class="container-fluid">
@@ -46,8 +54,27 @@
         </div>
       </div>
     </nav>
+    <section class="banner">
+      <div
+        class="container banner-content d-flex flex-column align-items-center justify-content-center"
+      >
+        <p class="caption text-capitalize text-light text-center">
+          No compromise when it comes to your healthcare
+        </p>
+        <div class="banner-search d-flex">
+          <input
+            class="form-control"
+            type="text"
+            placeholder="Find Hospital"
+            aria-label="search-bar"
+          />
+          <i class="search-icon fa-solid fa-magnifying-glass fa-2x"></i>
+        </div>
+      </div>
+    </section>
 
     <!-- Hospitals, messageUs, ContactUs, footer - Pauline -->
+<<<<<<< HEAD
     <div class="hospitalss pb-3 mt-5">
         <h2><span class="hos-h2">H</span>OSPITALS</h2>
         <div class="hospital-cards">
@@ -78,51 +105,99 @@
                     <button class="btn btn-primary">View More</button>
                 </div>
             </div>
+=======
+    <div class="hospitalss pb-3">
+      <h2><span class="hos-h2">H</span>OSPITALS</h2>
+      <div class="hospital-cards">
+        <div class="card hospital-card">
+          <img class="card-img-top" src="./images/aghakan.jpeg" alt="" />
+          <div class="card-body">
+            <h3 class="card-title">Hospital name</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h4 class="card-title">Rating</h4>
+            <button class="btn btn-primary">View More</button>
+          </div>
+        </div>
+        <div class="card hospital-card">
+          <img class="card-img-top" src="./images/aghakan.jpeg" alt="" />
+          <div class="card-body">
+            <h3 class="card-title">Hospital name</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h4 class="card-title">Rating</h4>
+            <button class="btn btn-primary">View More</button>
+          </div>
+        </div>
+        <div class="card hospital-card">
+          <img class="card-img-top" src="./images/aghakan.jpeg" alt="" />
+          <div class="card-body">
+            <h3 class="card-title">Hospital name</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h4 class="card-title">Rating</h4>
+            <button class="btn btn-primary">View More</button>
+          </div>
+>>>>>>> eaa7508a5a3563b5828f8aaf07023f39ca723cb8
         </div>
       </div>
     </div>
     <div class="messageUs">
-
-        <h2><span class="hos-h2">M</span>essage Us</h2>
-        <form action=""  id="messageForm">
-            <div class="">
-                <input type="text" id="messageName" placeholder="Name..." name="Name">
-                <input type="email" id="messageEmail" placeholder="Email..." name="Email">
-            </div>
-            <div class="messageTextarea mt-3">
-                <textarea id="messageText" cols="" rows="6" placeholder="Your message here..." name="Message"></textarea>
-            </div>
-            <div class="messsage-sbmtbtn mb-3">
-                <button id="" type="submit">SUBMIT</button>
-            </div>          
-        </form>
-
+      <h2><span class="hos-h2">M</span>essage Us</h2>
+      <form action="" id="messageForm">
+        <div class="">
+          <input type="text" id="messageName" placeholder="Name..." name="Name" />
+          <input type="email" id="messageEmail" placeholder="Email..." name="Email" />
+        </div>
+        <div class="messageTextarea mt-3">
+          <textarea
+            id="messageText"
+            cols=""
+            rows="6"
+            placeholder="Your message here..."
+            name="Message"
+          ></textarea>
+        </div>
+        <div class="messsage-sbmtbtn mb-3">
+          <button id="" type="submit">SUBMIT</button>
+        </div>
+      </form>
     </div>
     <div class="contactUs pb-3">
-        <h2><span class="hos-h2 mt-3">C</span>ontact Us</h2>
-        <div class="contactinfo mt-3">
-            <p>PACE SETTER WEBSITE <br> DEVELOPERS</p>
-            <p><a href="#" class="fa fa-map fa1"></a>Ngong Lane Plaza, Ngong Rd <br> Nairobi, 00200-Kilimani</p>
-            <p><a href="#" class="fa fa-inbox fa1"></a>Email us on:<a href="mailto:afyakenya@gmail.com" class="fa1">afyakenya@gmail.com</a></p>
-            <div class="contacticons">
-                <a href="#" class="fa fa-facebook fa1"></a>
-                <a href="#" class="fa fa-twitter fa1"></a>
-                <a href="#" class="fa fa-linkedin fa1"></a>
-            </div>        
+      <h2><span class="hos-h2 mt-3">C</span>ontact Us</h2>
+      <div class="contactinfo mt-3">
+        <p>
+          PACE SETTER WEBSITE <br />
+          DEVELOPERS
+        </p>
+        <p>
+          <a href="#" class="fa fa-map fa1"></a>Ngong Lane Plaza, Ngong Rd <br />
+          Nairobi, 00200-Kilimani
+        </p>
+        <p>
+          <a href="#" class="fa fa-inbox fa1"></a>Email us on:<a
+            href="mailto:afyakenya@gmail.com"
+            class="fa1"
+            >afyakenya@gmail.com</a
+          >
+        </p>
+        <div class="contacticons">
+          <a href="#" class="fa fa-facebook fa1"></a>
+          <a href="#" class="fa fa-twitter fa1"></a>
+          <a href="#" class="fa fa-linkedin fa1"></a>
         </div>
+      </div>
     </div>
     <footer class="landing-footer">&copy;2022</footer>
-
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./js/script.js"></script>
   </body>
+  <script src="https://kit.fontawesome.com/8ff7c2670f.js" crossorigin="anonymous"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="./js/script.js"></script>
 </html>
