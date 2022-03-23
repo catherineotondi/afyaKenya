@@ -45,18 +45,19 @@ body {
 .hos-h2 {
   color: #0047ff;
 }
-.hospital-cards {
-  width: 80vw;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-}
+
 .hospital-card {
   width: 25vw;
 }
 .card {
   border: 1 px solid black !important;
   border-radius: 5%;
+}
+.caroitem{
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
 }
 .messageUs {
   text-align: center;
