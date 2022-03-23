@@ -137,11 +137,21 @@ body {
     /* display: flex; */
     flex-direction: column;
   }
+  .card-text{
+    display: none;
+  }
+  .card-title{
+    font-size: x-small;
+  }
   .hospital-card {
     width: 80vw;
     margin-bottom: 5px;
   }
   .contactinfo {
     width: 70%;
+  }
+  .card-body a{
+    font-size: small;
+    line-height: 100%;
   }
 }
