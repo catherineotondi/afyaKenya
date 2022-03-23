@@ -25,7 +25,15 @@ nav button{
     border-color:  #fff;
     border-width: 3px;
 }
+.background{
+    background-image: url(../images/nairobi.jpg);
+    height: 50vh;
+    width: auto;
+    background-size: cover;
+    background-position: center;
 
+    
+}
 /* content&services -Cate */
 .nbhihosp{
     background-image:linear-gradient(white,rgb(178, 236, 236));
