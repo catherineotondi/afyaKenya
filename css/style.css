@@ -140,4 +140,8 @@ body {
   .contactinfo {
     width: 70%;
   }
+  .card-body a{
+    font-size: small;
+    line-height: 100%;
+  }
 }
