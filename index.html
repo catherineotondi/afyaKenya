@@ -90,20 +90,20 @@
     <!-- Hospitals, messageUs, ContactUs, footer - Pauline -->
     <section id="landing-hospitals" class="hospitals-section">
       <div class="hospitalss mt-5 py-5">
-        <h2 class="fw-bold text-capitalize my-3 py-3"><span class="hos-h2">H</span>ospitals</h2>
+        <h2 class="fw-bold text-capitalize my-3 py-3 text-center">
+          <span class="hos-h2">H</span>ospitals
+        </h2>
         <div id="carControl" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="caroitem">
                 <div class="card hospital-card">
-                  <img class="card-img-top" src="./images/aghakan.jpeg" alt="" />
+                  <img class="card-img-top" src="./images/nairobi.jpg" alt="" />
                   <div class="card-body">
                     <h3 class="card-title">Nairobi</h3>
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
+                    <p class="card-text">The esteemed facility has excelled in medical expertise</p>
                     <h4 class="card-title">Rating</h4>
-                    <button class="btn btn-primary">View More</button>
+                    <a href="./pages/nrb.html" class="btn btn-primary">View More</a>
                   </div>
                 </div>
                 <div class="card hospital-card">
@@ -111,21 +111,21 @@
                   <div class="card-body">
                     <h3 class="card-title">Aghakan</h3>
                     <p class="card-text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Set the standard for comprehensive healthcare and modern medical education
                     </p>
                     <h4 class="card-title">Rating</h4>
-                    <button class="btn btn-primary">View More</button>
+                    <a href="./pages/kan.html" class="btn btn-primary">View More</a>
                   </div>
                 </div>
                 <div class="card hospital-card">
-                  <img class="card-img-top" src="./images/aghakan.jpeg" alt="" />
+                  <img class="card-img-top" src="./images/dcoptic.jpg" alt="" />
                   <div class="card-body">
                     <h3 class="card-title">Coptic</h3>
                     <p class="card-text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Vision of establishing a haven for the ill to experience quality care
                     </p>
                     <h4 class="card-title">Rating</h4>
-                    <button class="btn btn-primary">View More</button>
+                    <a href="./pages/coptic.html" class="btn btn-primary">View More</a>
                   </div>
                 </div>
               </div>
@@ -141,19 +141,19 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </p>
                     <h4 class="card-title">Rating</h4>
-                    <button class="btn btn-primary">View More</button>
+                    <a class="btn btn-primary">View More</a>
                   </div>
                 </div>
 
                 <div class="card hospital-card">
                   <img class="card-img-top" src="./images/aghakan.jpeg" alt="" />
                   <div class="card-body">
-                    <h3 class="card-title">Mama Lucy</h3>
+                    <h3 class="card-title">MamaLucy</h3>
                     <p class="card-text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </p>
                     <h4 class="card-title">Rating</h4>
-                    <button class="btn btn-primary">View More</button>
+                    <a class="btn btn-primary">View More</a>
                   </div>
                 </div>
                 <div class="card hospital-card">
@@ -164,7 +164,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </p>
                     <h4 class="card-title">Rating</h4>
-                    <button class="btn btn-primary">View More</button>
+                    <a class="btn btn-primary">View More</a>
                   </div>
                 </div>
               </div>
@@ -247,7 +247,10 @@
         </div>
       </div>
     </section>
-
+    <div class="darkmode-toggle rounded-circle shadow fixed-bottom dark-mode">
+      <span id="moon"><i class="fa-solid fa-moon fa-2x p-2"></i></span>
+      <span id="sun" class="hide"><i class="fa-solid fa-sun fa-2x p-2"></i></span>
+    </div>
     <footer class="landing-footer">&copy;2022</footer>
   </body>
   <script src="https://kit.fontawesome.com/8ff7c2670f.js" crossorigin="anonymous"></script>
