@@ -61,8 +61,13 @@ body {
 }
 
 .dark-mode {
-  background-color: #181818;
-  color: rgb(247, 247, 247);
+  background-color: #212428 !important;
+  color: #f8f9fb !important;
+}
+
+.dark-mode2 {
+  background-color: #282b30 !important;
+  color: #f8f9fb !important;
 }
 
 .darkmode-toggle {
@@ -99,7 +104,7 @@ body {
   display: flex;
   justify-content: space-around;
 }
-.messsage-sbmtbtn{
+.messsage-sbmtbtn {
   text-align: center;
 }
 .contactUs {
