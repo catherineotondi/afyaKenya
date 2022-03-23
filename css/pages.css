@@ -21,7 +21,7 @@ nav button {
     justify-content: space-between;
     
 }
-.nav-link .hover {
+.nav-link :hover {
     color: #6e7aea !important;
   }
 .background{
@@ -54,42 +54,59 @@ nav button {
   text-align: center;
   font-weight: bold;
 }
-.servicescontainer {
-  height: 600px;
+.servcont {
   display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  margin-left: 60px;
+  justify-content: space-between;
 }
 .serviceimages {
   padding: 10px;
-  width: 300px;
-  height: 300px;
+  width: 23%;
+  text-align: center;
+  /* height: 300px; */
 }
 .serviceimages img {
-  width: 250px;
-  height: 250px;
+  width: 90%;
+  margin: auto;
+  height: 180px;
   border-radius: 20px;
   border: 3px solid black;
-  box-shadow: red red;
+}
+
+@media only screen and (max-width:767px){
+  .serviceimages img {
+    height: 100px;
+  }
+}
+@media only screen and (max-width:424px){
+  .serviceimages img {
+    height: 75px;
+  }
+  .serviceimages label{
+    font-size: smaller;
+  }
 }
 
 /* branches, reviews, ratings -Milcah*/
 .branches {
   display: flex;
-  text-align: center;
-  margin: 50px;
+  justify-content: space-around;
+  position: relative;
+}
+.branch1{
+  width: 30%;
 }
 .branimg {
-  height: 300px;
-  width: 350px;
-  padding: 10px;
-  margin: 20px;
+  width: 100%;
   border-radius: 20px;
+  height: 300px;
 }
 .branch {
   text-align: center;
-  margin: 20px;
+}
+@media only screen and (max-width:767px){
+  .branimg {
+    height: 100px;
+  }
 }
 .brdisplay {
   color: black;
@@ -102,11 +119,11 @@ nav button {
   height: 50px;
   width: 20%;
   font-weight: 700;
-  top: 350%;
+  top: 30%;
   left: 5%;
-  /* right: 20%; */
-}
-.brdisplay7 {
+  right: 20%;
+} 
+ .brdisplay7 {
   color: black;
   opacity: 0.5;
   border: 3px solid black;
@@ -117,7 +134,7 @@ nav button {
   height: 50px;
   width: 20%;
   font-weight: 700;
-  top: 350%;
+  top: 30%;
   left: 40%;
 }
 .brdisplay8 {
@@ -125,13 +142,13 @@ nav button {
   opacity: 0.5;
   border: 3px solid black;
   background-color: white;
-  -ms-transform: translate(10%, 10%);
-  transform: translate(5%, 5%);
+  -ms-transform: translate(20%, 20%);
+  transform: translate(20%, 20%);
   position: absolute;
   height: 50px;
   width: 20%;
   font-weight: 700;
-  top: 350%;
+  top: 30%;
   left: 70%;
 }
 .socials {
@@ -154,3 +171,33 @@ nav button {
 .review-view {
   margin: auto;
 }
+.akanlocation{
+  position: relative;
+   height: 400px;
+}
+.akanlocation img{
+ padding-left: 50px;
+}
+.locate{
+font-weight: bolder;
+text-align: center;
+color:black;
+font-size: 40px;
+font-family: 'Merriweather Sans', sans-serif;
+}
+.locationinfo{
+float: right;
+color: white;
+font-size: 20px;
+background-image:url(../pages/img/road.jpg);
+background-size: cover;
+height: 350px;
+width: 650px;
+text-align: center;
+padding-top: 60px;
+
+}
+.emailtext{
+  color: white;
+  text-decoration: none;
+  }

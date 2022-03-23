@@ -60,6 +60,28 @@ body {
   color: #8b8b8b;
 }
 
+.dark-mode {
+  background-color: #212428 !important;
+  color: #f8f9fb !important;
+}
+
+.dark-mode2 {
+  background-color: #282b30 !important;
+  color: #f8f9fb !important;
+}
+
+.darkmode-toggle {
+  width: 50px;
+  right: 1vw;
+  left: auto;
+  bottom: 1vh;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
 /* Hospitals, messageUs, ContactUs, footer - Pauline */
 .hospitalss {
   background: #e5d9f2;
@@ -73,7 +95,7 @@ body {
   width: 25vw;
 }
 .card {
-  border: 1 px solid black !important;
+  border: 1px solid black !important;
   border-radius: 5%;
 }
 .caroitem {
@@ -82,16 +104,13 @@ body {
   display: flex;
   justify-content: space-around;
 }
-/*.messageUs {
+.messsage-sbmtbtn {
   text-align: center;
 }
-*/
-/* .messageTextarea {
-  width: 100vw;
-} */
 .contactUs {
   background: #f5efff;
   text-align: center;
+  min-height: 80vh;
 }
 .contactinfo {
   border: 1px solid #0047ff;
