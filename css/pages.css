@@ -154,8 +154,13 @@ nav button{
 .review-view{
     text-align: center;
 }
-
-/* location,icons -Rose */
-.review-view{
+.location{
+    max-width:auto ;
+    text-align: center;
     margin: auto;
+    height: auto;
 }
+    
+
+
+
