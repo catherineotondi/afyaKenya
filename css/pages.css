@@ -70,7 +70,6 @@ nav button {
   height: 180px;
   border-radius: 20px;
   border: 3px solid black;
-  box-shadow: red red;
 }
 
 @media only screen and (max-width:767px){
