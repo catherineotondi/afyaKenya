@@ -81,12 +81,8 @@
       .socialimg {
         height: 30px;
       }
-      .review {
-        margin: 50px;
-        background-color: darkgray;
-        height: 200px;
-        text-align: center;
-      }
+      
+      
       .review-view {
         text-align: center;
       }
@@ -106,4 +102,35 @@
         text-align: center;
         padding-top: 60px;
       }
+
+.socials {
+  text-align: center;
+}
+.socialimg {
+  height: 30px;
+}
+.review {
+  background-color: #ade6bb;
+  min-height: 200px;
+  /*   text-align: center; */
+}
+.review-view {
+  text-align: center;
+}
+
+.form-link {
+  color: #3c50ff;
+  cursor: pointer;
+  animation: grow 2s linear infinite;
+}
+
+@keyframes grow {
+  to {
+    font-size: 1.2em;
+  }
+}
+
+.rating-t {
+  display: inline-block;
+}
       
