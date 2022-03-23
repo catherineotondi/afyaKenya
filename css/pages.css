@@ -3,38 +3,35 @@
   margin: 0;
   padding: 0;
 }
-.navbar-brand {
-  margin-left: 20px;
-  padding-top: 10px;
-}
-.nav-link {
-  color: #fff;
-  font-size: 18px;
-  padding-top: 8px;
-  font-style: normal;
-}
-a:hover {
-  color: #6e7aea;
-}
+
+
+
 nav button {
   background-color: #6e7aea !important;
   outline: none;
   border-radius: 3px;
-  height: 40px;
+  height: 50px;
   border-color: #fff;
   border-width: 3px;
+  
 }
 
-a:hover {
-  color: #6e7aea;
+.nav-link{
+    color: #fff !important;
+    justify-content: space-between;
+    
 }
-nav button {
-  background-color: #6e7aea;
-  outline: none;
-  border-radius: 3px;
-  height: 40px;
-  border-color: #fff;
-  border-width: 3px;
+.nav-link .hover {
+    color: #6e7aea !important;
+  }
+.background{
+    background-image: url(../images/nairobi.jpg);
+    height: 50vh;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+
+
 }
 /* content&services -Cate */
 .nbhihosp {
@@ -57,43 +54,60 @@ nav button {
   text-align: center;
   font-weight: bold;
 }
-.servicescontainer {
-  height: 600px;
+.servcont {
   display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  margin-left: 60px;
+  justify-content: space-between;
 }
 .serviceimages {
   padding: 10px;
-  width: 300px;
-  height: 300px;
+  width: 23%;
+  text-align: center;
+  /* height: 300px; */
 }
 .serviceimages img {
-  width: 250px;
-  height: 250px;
+  width: 90%;
+  margin: auto;
+  height: 180px;
   border-radius: 20px;
   border: 3px solid black;
+}
+
+@media only screen and (max-width:767px){
+  .serviceimages img {
+    height: 100px;
+  }
+}
+@media only screen and (max-width:424px){
+  .serviceimages img {
+    height: 75px;
+  }
+  .serviceimages label{
+    font-size: smaller;
+  }
 }
 
 /* branches, reviews, ratings -Milcah*/
 .branches {
   display: flex;
-  text-align: center;
-  margin: 50px;
+  justify-content: space-around;
+}
+.branch1{
+  width: 30%;
 }
 .branimg {
-  height: 300px;
-  width: 350px;
-  padding: 10px;
-  margin: 20px;
+  width: 100%;
   border-radius: 20px;
+  height: 200px;
 }
 .branch {
   text-align: center;
-  margin: 20px;
 }
-.brdisplay {
+@media only screen and (max-width:767px){
+  .branimg {
+    height: 100px;
+  }
+}
+/* .brdisplay {
   color: black;
   opacity: 0.5;
   border: 3px solid black;
@@ -106,9 +120,19 @@ nav button {
   font-weight: 700;
   top: 350%;
   left: 5%;
-  /* right: 20%; */
-}
-.brdisplay7 {
+  right: 20%;border: 3px solid black;
+  background-color: white;
+  -ms-transform: translate(10%, 10%);
+  transform: translate(20%, 20%);
+  position: absolute;
+  height: 50px;
+  width: 20%;
+  font-weight: 700;
+  top: 350%;
+  left: 5%;
+  right: 20%;
+} */
+/* .brdisplay7 {
   color: black;
   opacity: 0.5;
   border: 3px solid black;
@@ -135,7 +159,7 @@ nav button {
   font-weight: 700;
   top: 350%;
   left: 70%;
-}
+} */
 .socials {
   text-align: center;
 }
