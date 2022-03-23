@@ -24,7 +24,7 @@
       color: #6e7aea !important;
     }
     .background{
-        background-image: url(../images/dcoptic.jpg);
+        background-image: url(/images/dcoptic.jpg);
         height: 50vh;
         width: auto;
         background-size: cover;
