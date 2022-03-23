@@ -90,6 +90,7 @@ nav button {
 .branches {
   display: flex;
   justify-content: space-around;
+  position: relative;
 }
 .branch1{
   width: 30%;
@@ -97,7 +98,7 @@ nav button {
 .branimg {
   width: 100%;
   border-radius: 20px;
-  height: 200px;
+  height: 300px;
 }
 .branch {
   text-align: center;
@@ -107,7 +108,7 @@ nav button {
     height: 100px;
   }
 }
-/* .brdisplay {
+.brdisplay {
   color: black;
   opacity: 0.5;
   border: 3px solid black;
@@ -118,21 +119,11 @@ nav button {
   height: 50px;
   width: 20%;
   font-weight: 700;
-  top: 350%;
-  left: 5%;
-  right: 20%;border: 3px solid black;
-  background-color: white;
-  -ms-transform: translate(10%, 10%);
-  transform: translate(20%, 20%);
-  position: absolute;
-  height: 50px;
-  width: 20%;
-  font-weight: 700;
-  top: 350%;
+  top: 30%;
   left: 5%;
   right: 20%;
-} */
-/* .brdisplay7 {
+} 
+ .brdisplay7 {
   color: black;
   opacity: 0.5;
   border: 3px solid black;
@@ -143,7 +134,7 @@ nav button {
   height: 50px;
   width: 20%;
   font-weight: 700;
-  top: 350%;
+  top: 30%;
   left: 40%;
 }
 .brdisplay8 {
@@ -151,15 +142,15 @@ nav button {
   opacity: 0.5;
   border: 3px solid black;
   background-color: white;
-  -ms-transform: translate(10%, 10%);
-  transform: translate(5%, 5%);
+  -ms-transform: translate(20%, 20%);
+  transform: translate(20%, 20%);
   position: absolute;
   height: 50px;
   width: 20%;
   font-weight: 700;
-  top: 350%;
+  top: 30%;
   left: 70%;
-} */
+}
 .socials {
   text-align: center;
 }
@@ -180,3 +171,33 @@ nav button {
 .review-view {
   margin: auto;
 }
+.akanlocation{
+  position: relative;
+   height: 400px;
+}
+.akanlocation img{
+ padding-left: 50px;
+}
+.locate{
+font-weight: bolder;
+text-align: center;
+color:black;
+font-size: 40px;
+font-family: 'Merriweather Sans', sans-serif;
+}
+.locationinfo{
+float: right;
+color: white;
+font-size: 20px;
+background-image:url(../pages/img/road.jpg);
+background-size: cover;
+height: 350px;
+width: 650px;
+text-align: center;
+padding-top: 60px;
+
+}
+.emailtext{
+  color: white;
+  text-decoration: none;
+  }
