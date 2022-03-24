@@ -54,4 +54,58 @@ $(document).ready(function () {
     $("#sun").toggleClass("hide");
     $(".darkmode-toggle").toggleClass("dark-mode");
   });
+
+  let reviewerCount = 0;
+  let totalRating = 0;
+  let c = console.log;
+
+  $("#feedbackBtn").click(function (e) {
+    e.preventDefault();
+
+    let name = $("#pages-name").val();
+    let email = $("#pages-email").val();
+    let rating = $("#pages-rating").val();
+    let message = $("#pages-message").val();
+
+    function UserDetails(name, email, rating, message) {
+      this.name = name;
+      this.email = email;
+      this.rating = rating;
+      this.message = message;
+    }
+
+    let userCreate = (name, email, rating, message) => {
+      let user = new UserDetails(name, email, rating, message);
+      reviewerCount += 1;
+      totalRating += parseInt(user.rating);
+      getAverage(totalRating, reviewerCount);
+      // return user;
+    };
+
+    let getAverage = (totalRating, reviewerCount) => {
+      let avarage = Math.floor(totalRating / reviewerCount);
+      $("#avarageOut").text(avarage.toString());
+
+      $("#reviewStars").empty();
+
+      for (let i = 1; i <= avarage; i++) {
+        $("#reviewStars").append(`<i class="fa-solid fa-star"></i>`);
+      }
+
+      outputComments(message, name);
+    };
+
+    let outputComments = (message, name) => {
+      $("#feedbackOut").prepend(`
+          <div class="userOutContainer container">
+            <p class="userName">${name}</p>
+            <p class="userComment">${message}</p>
+          </div>
+      `);
+      $("#userNumOut").text(reviewerCount.toString());
+    };
+
+    userCreate(name, email, rating, message);
+    //c(reviewerCount, totalRating);
+  });
 });
