@@ -104,6 +104,9 @@ body {
   display: flex;
   justify-content: space-around;
 }
+.carsmall {
+  display: none;
+}
 
 .card-img-top {
   border: 30px 30px 0 0 !important;
@@ -137,18 +140,14 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-  .hospital-cards {
-    /* display: flex; */
-    flex-direction: column;
-  }
-  .card-text {
+  .carlarge {
     display: none;
   }
-  .card-title {
-    font-size: x-small;
+  .carsmall {
+    display: contents;
   }
   .hospital-card {
-    width: 80vw;
+    width: 70vw;
     margin-bottom: 5px;
   }
   .contactinfo {
