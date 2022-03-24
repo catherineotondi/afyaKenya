@@ -160,6 +160,10 @@ nav button {
   text-align: center;
 }
 
+.fa-star {
+  color: yellow;
+}
+
 .form-link {
   color: #3c50ff;
   cursor: pointer;
