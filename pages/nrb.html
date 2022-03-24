@@ -58,7 +58,7 @@
         </div>
         
       </div>
-      <button type="button" class="btn btn-primary btn-sm"><strong>get back</strong></button>
+      <button type="button"  onclick="window.location.href='../index.html'" class="btn btn-primary btn-sm"><strong>get back</strong></button>
      
     </nav>
            
@@ -166,21 +166,34 @@
         <!-- <h4 class="brdisplay8" id="bran3">Capital <br>Centre</h4> -->
       </div>
     </div>
+   
 
     <h2 class="locate fw-bold py-5 text-center">Location</h2>
              <div class="akanlocation text-center row" id="Contact us">
 
-                <iframe class="col-md" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.191553762363!2d36.8033705!3d-1.2958727!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x742fed8596c675f0!2sThe%20Nairobi%20Hospital%E2%80%99s%20Doctors&#39;%20Plaza!5e0!3m2!1sen!2ske!4v1648040359347!5m2!1sen!2ske" width="700" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                 <iframe class="col-md" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.191553762363!2d36.8033705!3d-1.2958727!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x742fed8596c675f0!2sThe%20Nairobi%20Hospital%E2%80%99s%20Doctors&#39;%20Plaza!5e0!3m2!1sen!2ske!4v1648040359347!5m2!1sen!2ske" width="700" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 <div class="locationinfo col-md">
+                      <p class="locate">CONTACT US</p>
+
+
                     <p>
+
                         <strong>WARD VISITING HOURS</strong>:2:00PM – 4:00PM<br>
                         <strong>TELEPHONE</strong>:(+254) 703082000<br>
                         <strong>ADDRESS</strong>:Argwings Kodhek Rd, Nairobi, Kenya<BR>
                             <strong>EMAIL</strong>: <a href="mailto:hosp@nbihosp.org"><span class="emailtext">hosp@nbihosp.org</span></a>
                     </p>
+                      <h1 follow us on the folowing platforms></h1>
+                      <a href="#" class="fa fa-facebook"></a>
+                      <a href="#" class="fa fa-twitter"></a>
+                      <a href="#" class="fa fa-instagram"></a>
+
+
+
                 </div>
                 
             </div>
+        
 
 
     <div class="socials" id="contact">
@@ -195,61 +208,78 @@
       <section class="review mt-5" id="review">
           <h2 class="review-view pt-5">Reviews and Ratings</h2>
             <div class="container rating-b">
-              <p class="rate">Rating:3/5</p>
-              <p>3 people have rated</p>
+              <p class="rate mb-0">Rating: <span id="avarageOut"></span>/5</p>
+              <div id="reviewStars"></div>
+              <p><span id="userNumOut"></span> people have rated</p>
               <p class="rating-t py-2 my-2">To leave rating click</p>
                <span class=" form-link fw-bold" data-bs-toggle="modal" data-bs-target="#feedback-modal">here</span>
             </div>
       </section>
-      <section class="modal-section">
-        <div class="modal fade" id="feedback-modal" tabindex="-1" aria-labelledby="feedback-modal" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title">Review</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <div class="container">
-                  <form action="#" method="post" id="ratingsForm">
-
-                    <div class="mb-3 col-md">
-              <label for="pages-name" class="form-label">Name:</label>
-              <input
-                type="text"
-                class="form-control"
-                id="landing-name"
-                name="name"
-                placeholder="Your name...."
-              />
-                    </div>
-                    <div class="mb-3 col-md">
-              <label for="pages-email" class="form-label">Email:</label>
-              <input
-                type="email"
-                class="form-control"
-                id="landing-email"
-                name="email"
-                placeholder="name@example.com"
-              />
-                    </div>
-
-                    <div class="mb-3">
-                      <label for="pages-message" class="form-label">Message</label>
-                      <textarea class="form-control" id="landing-message" name="message" rows="3"></textarea>
-                    </div>
-                  </form>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button id="feedbackBtn" type="submit" class="btn btn-primary">Submit</button>
-              </div>
-            </div>
+      <section class="page-feedback">
+        <h2 class="fw-bold">Feedback</h2>
+        <div id="feedbackOut" class="container">
+          <div class="userOutContainer container">
+            <p class="userName">John Doe</p>
+            <p class="userComment">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla similique optio, voluptatibus reprehenderit voluptate debitis eius sit dolorum quaerat blanditiis!</p>
           </div>
         </div>
       </section>
-  
-      <!-- location,icons -Rose -->
+      <section class="modal-section">
+        <div class="modal fade" id="feedback-modal" tabindex="-1" aria-labelledby="feedback-modal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+                        <div class="container">
+                  <form action="#" method="post" id="ratingsForm">
+
+                    <div class="mb-3 col-md">
+                      <label for="pages-name" class="form-label">Name:</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="pages-name"
+                        name="name"
+                        placeholder="Your name...."
+                      />
+                    </div>
+                    <div class="mb-3 col-md">
+                      <label for="pages-email" class="form-label">Email:</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="pages-email"
+                        name="email"
+                        placeholder="name@example.com"
+                      />
+                    </div>
+                    <select id="pages-rating" class="form-select" aria-label="Choose-rating">
+                      <option selected value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                    </select>
+
+                    <div class="mb-3">
+                      <label for="pages-message" class="form-label">Message</label>
+                      <textarea class="form-control" id="pages-message" name="message" rows="3"></textarea>
+                    </div>
+                  </form>
+                </div>
+      </div>
+      <div class="modal-footer">
+
+        <button id="feedbackBtn" type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </section>
+    
       
       <script
         src="https://code.jquery.com/jquery-3.6.0.js"
@@ -263,17 +293,11 @@
       ></script>
     </body>
     <script src="https://kit.fontawesome.com/8ff7c2670f.js" crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+
   </html>
   
 
+          
 
 
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                   
-             

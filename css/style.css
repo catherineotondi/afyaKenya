@@ -85,7 +85,7 @@ body {
 /* Hospitals, messageUs, ContactUs, footer - Pauline */
 .hospitalss {
   background: #e5d9f2;
-  /* text-align: center; */
+  text-align: center;
 }
 .hos-h2 {
   color: #0047ff;
@@ -103,6 +103,9 @@ body {
   margin: auto;
   display: flex;
   justify-content: space-around;
+}
+.carsmall {
+  display: none;
 }
 
 .card-img-top {
@@ -132,25 +135,28 @@ body {
   color: white;
 }
 
+.fa-star {
+  color: yellowgreen;
+}
+
 @media only screen and (max-width: 767px) {
-  .hospital-cards {
-    /* display: flex; */
-    flex-direction: column;
-  }
-  .card-text{
+  .carlarge {
     display: none;
   }
-  .card-title{
-    font-size: x-small;
+
+  .carsmall{
+    display: inline-block;
+
+
   }
   .hospital-card {
-    width: 80vw;
+    width: 60vw;
     margin-bottom: 5px;
   }
   .contactinfo {
     width: 70%;
   }
-  .card-body a{
+  .card-body a {
     font-size: small;
     line-height: 100%;
   }

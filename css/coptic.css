@@ -129,6 +129,10 @@
     font-size: 1.2em;
   }
 }
+iframe{
+  height: 350px;
+  width: 280px;
+}
 
 .rating-t {
   display: inline-block;
