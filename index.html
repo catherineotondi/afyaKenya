@@ -87,8 +87,8 @@
     <section id="landing-hospitals" class="hospitals-section">
       <div class="hospitalss mt-5 py-5">
         <h2 class="fw-bold text-capitalize my-3 py-3"><span class="hos-h2">H</span>ospitals</h2>
-        <div id="carControl" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner carlarge">
+        <div id="carControl" class="carousel slide  carlarge" data-bs-ride="carousel">
+          <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="caroitem">
                 <div class="card hospital-card">
@@ -160,16 +160,26 @@
                       Provides quality medical care that exceeds the needs of clients 
                     </p>
                     <h4 class="card-title">Rating</h4>
-                    <a class="btn btn-primary">View More</a>
+                    <a class="btn btn-primary disabled">View More</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
+          <a class="carousel-control-prev" href="#carControl" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control-next" href="#carControl" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div>
+      
+
           <!-- carosmall -->
-          <div class="carousel-inner carsmall">
-            <div class="carousel-item active">
+        <div id="carControlsm" class="carousel slide carsmall" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item">
               <div class="caroitem">
                 <div class="card hospital-card">
                   <img class="card-img-top" src="./images/nairobi.jpg" alt="" />
@@ -201,7 +211,7 @@
               </div>
             </div>
 
-            <div class="carousel-item">
+            <div class="carousel-item active">
               <div class="caroitem">
                 <div class="card hospital-card">
                   <img class="card-img-top" src="./images/dcoptic.jpg" alt="" />
@@ -267,10 +277,10 @@
           </div>
 
 
-          <a class="carousel-control-prev" href="#carControl" role="button" data-bs-slide="prev">
+          <a class="carousel-control-prev" href="#carControlsm" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           </a>
-          <a class="carousel-control-next" href="#carControl" role="button" data-bs-slide="next">
+          <a class="carousel-control-next" href="#carControlsm" role="button" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
           </a>
         </div>
