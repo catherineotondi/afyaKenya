@@ -132,15 +132,19 @@ body {
   color: white;
 }
 
+.fa-star {
+  color: yellowgreen;
+}
+
 @media only screen and (max-width: 767px) {
   .hospital-cards {
     /* display: flex; */
     flex-direction: column;
   }
-  .card-text{
+  .card-text {
     display: none;
   }
-  .card-title{
+  .card-title {
     font-size: x-small;
   }
   .hospital-card {
@@ -150,7 +154,7 @@ body {
   .contactinfo {
     width: 70%;
   }
-  .card-body a{
+  .card-body a {
     font-size: small;
     line-height: 100%;
   }
