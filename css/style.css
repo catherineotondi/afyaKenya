@@ -104,7 +104,7 @@ body {
   display: flex;
   justify-content: space-around;
 }
-.carsmall{
+.carsmall {
   display: none;
 }
 
@@ -135,12 +135,19 @@ body {
   color: white;
 }
 
+.fa-star {
+  color: yellowgreen;
+}
+
 @media only screen and (max-width: 767px) {
-  .carlarge{
+  .carlarge {
     display: none;
   }
+
   .carsmall{
     display: inline-block;
+
+
   }
   .hospital-card {
     width: 60vw;
@@ -149,7 +156,7 @@ body {
   .contactinfo {
     width: 70%;
   }
-  .card-body a{
+  .card-body a {
     font-size: small;
     line-height: 100%;
   }
