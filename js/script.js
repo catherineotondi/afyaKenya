@@ -85,6 +85,13 @@ $(document).ready(function () {
     let getAverage = (totalRating, reviewerCount) => {
       let avarage = Math.floor(totalRating / reviewerCount);
       $("#avarageOut").text(avarage.toString());
+
+      $("#reviewStars").empty();
+
+      for (let i = 1; i <= avarage; i++) {
+        $("#reviewStars").append(`<i class="fa-solid fa-star"></i>`);
+      }
+
       outputComments(message, name);
     };
 
