@@ -125,10 +125,10 @@ nav button{
   }
   .review {
     margin: 50px;
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(160, 154, 154);
     height: 200px;
     text-align: center;
-    color: #fff;
+    color: rgb(37, 13, 13);
   }
   .review-view {
     text-align: center;
