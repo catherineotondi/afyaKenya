@@ -75,7 +75,7 @@
       </div>
     </section>
     <section id="landing-about" class="AboutUs">
-      <div class="container text-center py-3">
+      <div class="container text-center py-3" id="abouttus">
         <h2 class="fw-bold text-capitalize py-4">
           <span class="hos-h2">a</span>bout <span class="hos-h2">U</span>s
         </h2>
@@ -94,8 +94,8 @@
     <section id="landing-hospitals" class="hospitals-section">
       <div class="hospitalss mt-5 py-5">
         <h2 class="fw-bold text-capitalize my-3 py-3"><span class="hos-h2">H</span>ospitals</h2>
-        <div id="carControl" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner carlarge">
+        <div id="carControl" class="carousel slide carlarge" data-bs-ride="carousel">
+          <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="caroitem">
                 <div class="card hospital-card">
@@ -191,22 +191,32 @@
                       Provides quality medical care that exceeds the needs of clients
                     </p>
                     <h4 class="card-title">Rating</h4>
+
                     <div>
                       <i class="fa-solid fa-star"></i>
                       <i class="fa-solid fa-star"></i>
                       <i class="fa-solid fa-star"></i>
                       <i class="fa-solid fa-star"></i>
                     </div>
-                    <a class="btn btn-primary">View More</a>
+                    <a class="btn btn-primary disabled">View More</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- carosmall -->
-          <div class="carousel-inner carsmall">
-            <div class="carousel-item active">
+          <a class="carousel-control-prev" href="#carControl" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control-next" href="#carControl" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <!-- carosmall -->
+        <div id="carControlsm" class="carousel slide carsmall" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item">
               <div class="caroitem">
                 <div class="card hospital-card">
                   <img class="card-img-top" src="./images/nairobi.jpg" alt="" />
@@ -214,6 +224,12 @@
                     <h3 class="card-title">Nairobi</h3>
                     <p class="card-text">The esteemed facility has excelled in medical expertise</p>
                     <h4 class="card-title">Rating</h4>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
                     <a href="./pages/nrb.html" class="btn btn-primary">View More</a>
                   </div>
                 </div>
@@ -230,13 +246,19 @@
                       Set the standard for comprehensive healthcare & medical education
                     </p>
                     <h4 class="card-title">Rating</h4>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
                     <a href="./pages/kan.html" class="btn btn-primary">View More</a>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="carousel-item">
+            <div class="carousel-item active">
               <div class="caroitem">
                 <div class="card hospital-card">
                   <img class="card-img-top" src="./images/dcoptic.jpg" alt="" />
@@ -246,6 +268,12 @@
                       Vision of establishing a haven for the ill to experience quality care
                     </p>
                     <h4 class="card-title">Rating</h4>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
                     <a href="./pages/coptic.html" class="btn btn-primary">View More</a>
                   </div>
                 </div>
@@ -260,6 +288,12 @@
                     <h3 class="card-title">Mathari</h3>
                     <p class="card-text">Kenya's Premier psychiatric Hospital.</p>
                     <h4 class="card-title">Rating</h4>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
                     <a href="./pages/mathare.html" class="btn btn-primary">View More</a>
                   </div>
                 </div>
@@ -274,6 +308,12 @@
                     <h3 class="card-title">MamaLucy</h3>
                     <p class="card-text">advanced diagnostis, treatment and refferal center</p>
                     <h4 class="card-title">Rating</h4>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
                     <a href="./pages/lucy.html" class="btn btn-primary">View More</a>
                   </div>
                 </div>
@@ -290,6 +330,12 @@
                       Provides quality medical care that exceeds the needs of clients
                     </p>
                     <h4 class="card-title">Rating</h4>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
                     <a class="btn btn-primary">View More</a>
                   </div>
                 </div>
@@ -297,10 +343,10 @@
             </div>
           </div>
 
-          <a class="carousel-control-prev" href="#carControl" role="button" data-bs-slide="prev">
+          <a class="carousel-control-prev" href="#carControlsm" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           </a>
-          <a class="carousel-control-next" href="#carControl" role="button" data-bs-slide="next">
+          <a class="carousel-control-next" href="#carControlsm" role="button" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
           </a>
         </div>

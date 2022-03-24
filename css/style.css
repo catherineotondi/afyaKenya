@@ -143,11 +143,14 @@ body {
   .carlarge {
     display: none;
   }
-  .carsmall {
-    display: contents;
+
+  .carsmall{
+    display: inline-block;
+
+
   }
   .hospital-card {
-    width: 70vw;
+    width: 60vw;
     margin-bottom: 5px;
   }
   .contactinfo {

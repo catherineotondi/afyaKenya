@@ -157,12 +157,60 @@ nav button {
   padding-left: 50px;
 }
 .locate {
+  .socialimg {
+    height: 30px;
+  } */
+.review {
+  /* margin: 50px; */
+  background-color: rgb(160, 154, 154);
+  min-height: 200px;
+  /* text-align: center; */
+  color: rgb(37, 13, 13);
+}
+.review-view {
+  text-align: center;
+}
+
+/* location,icons -Rose */
+.review-view {
+  margin: auto;
+}
+.fa-star {
+  color: yellow;
+}
+
+.form-link {
+  color: #3c50ff;
+  cursor: pointer;
+  animation: grow 2s linear infinite;
+}
+
+@keyframes grow {
+  to {
+    font-size: 1.2em;
+  }
+}
+
+.rating-t {
+  display: inline-block;
+}
+.review-view {
+  margin: auto;
+}
+.akanlocation {
+  position: relative;
+  height: 400px;
+}
+.akanlocation img {
+  padding-left: 50px;
+}
+.locate {
   text-align: center;
   color: #fff;
   font-size: 40px;
   font-family: "Merriweather Sans", sans-serif;
-} */
-.locationinfo {
+}
+*/ .locationinfo {
   /*  float: right; */
   color: white;
   /* font-size: ; */
