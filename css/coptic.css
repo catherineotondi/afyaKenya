@@ -129,8 +129,9 @@
     font-size: 1.2em;
   }
 }
-.col-md{
-  height: 400px;
+iframe{
+  height: 350px;
+  width: 280px;
 }
 
 .rating-t {
