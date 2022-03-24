@@ -1,106 +1,96 @@
 /* nav -Kabui */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Roboto:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-.body{
-    margin: 0;
-    padding: 0;
-
-  
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.body {
+  margin: 0;
+  padding: 0;
 }
-.background{
-    height: 500px;
+.background {
+  height: 500px;
 }
-.navbar-brand{
-    margin-left: 20px;
-    padding-top: 10px;
+.navbar-brand {
+  margin-left: 20px;
+  padding-top: 10px;
 }
- .nav-link{
- color: #fff;
- font-size: 18px;
- padding-top: 8px;
- font-style: normal;
- 
+.nav-link {
+  color: #fff;
+  font-size: 18px;
+  padding-top: 8px;
+  font-style: normal;
 }
-a:hover{
-    color: #6E7AEA;
+a:hover {
+  color: #6e7aea;
 }
-nav button{
-    background-color: #6E7AEA;
-    outline: none;
-    border-radius: 3px;
-    height: 40px;
-    border-color:  #fff;
-    border-width: 3px;
+nav button {
+  background-color: #6e7aea;
+  outline: none;
+  border-radius: 3px;
+  height: 40px;
+  border-color: #fff;
+  border-width: 3px;
 }
 
 /* content&services -Cate */
-.nbhihosp{
-    background-image:linear-gradient(black,rgb(178, 236, 236));
-   
+.nbhihosp {
+  background-image: linear-gradient(black, rgb(178, 236, 236));
 }
-.logoo{
-    text-align: center;
- }
- .logoo img{
-     width: 200px;
-     height: 150px;
-     border-radius:70px;
- }
- .nbih{
-     text-align: center;
-     color: white;
-     font-family: 'Merriweather Sans', sans-serif;
-    
-     
- }
- .pcontent{
-     text-align: center;
-     color: white;
- }
- .nbh2{
-     text-align: center;
-     font-weight: bold;
-     color: white;
-     font-family: 'Merriweather Sans', sans-serif;
- }
- .servicescontainer{
-  
-     height: 600px;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    margin-left: 60px;
+.logoo {
+  text-align: center;
 }
- .serviceimages{
-     padding: 10px;
-     width: 300px;
-     height: 300px;
-    background-color: white;
- }
- .serviceimages img{
-     width: 250px;
-     height: 250px;
-     border-radius: 20px;
-     border: 4px solid black;
- }
-    
-
-
-
-
+.logoo img {
+  width: 200px;
+  height: 150px;
+  border-radius: 70px;
+}
+.nbih {
+  text-align: center;
+  color: white;
+  font-family: "Merriweather Sans", sans-serif;
+}
+.pcontent {
+  text-align: center;
+  color: white;
+}
+.nbh2 {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-family: "Merriweather Sans", sans-serif;
+}
+.servicescontainer {
+  background-color: white;
+  /* height: 600px; */
+  /*   display: flex;
+  flex-wrap: wrap; */
+  text-align: center;
+  /* margin-left: 60px; */
+}
+.serviceimages {
+  padding: 10px;
+  /*  min-width: 30vw; */
+  /* height: 30px; */
+  background-color: white;
+}
+/*
+.serviceimages img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  border: 4px solid black;
+} */
 
 /* branches, reviews, ratings -Milcah*/
 /* branches, reviews, ratings -Milcah*/
 .branches {
-  display: flex;
-  justify-content: space-around;
-  
+  /*   display: flex;
+  justify-content: space-around; */
+  height: 40vh;
 }
-.branch1{
-  width: 30%;
+/* .branch1 {
+  width: 30%; 
   text-align: center;
   font-weight: bold;
-}
+} */
 .branimg {
   width: 100%;
   border-radius: 20px;
@@ -111,81 +101,126 @@ nav button{
   color: whitesmoke;
   font-weight: bold;
 }
-@media only screen and (max-width:767px){
+@media only screen and (max-width: 767px) {
   .branimg {
     height: 100px;
   }
 }
- 
-  .socials {
-    text-align: center;
+
+.socials {
+  text-align: center;
+}
+.socialimg {
+  height: 30px;
+}
+
+.review {
+  background-color: #b4eceb;
+  min-height: 200px;
+  /*   text-align: center; */
+}
+
+.review-view {
+  text-align: center;
+}
+
+/* location,icons -Rose */
+.review-view {
+  margin: auto;
+}
+.fa-star {
+  color: yellow;
+}
+
+.form-link {
+  color: #3c50ff;
+  cursor: pointer;
+  animation: grow 2s linear infinite;
+}
+
+@keyframes grow {
+  to {
+    font-size: 1.2em;
   }
+}
+
+.rating-t {
+  display: inline-block;
+}
+.akanlocation {
+  /* position: relative;
+  height: 400px; */
+  width: 100%;
+}
+/*
+.akanlocation img {
+  padding-left: 50px;
+}
+.locate {
   .socialimg {
     height: 30px;
+  } */
+.review {
+  /* margin: 50px; */
+  background-color: rgb(160, 154, 154);
+  min-height: 200px;
+  /* text-align: center; */
+  color: rgb(37, 13, 13);
+}
+.review-view {
+  text-align: center;
+}
+
+/* location,icons -Rose */
+.review-view {
+  margin: auto;
+}
+.fa-star {
+  color: yellow;
+}
+
+.form-link {
+  color: #3c50ff;
+  cursor: pointer;
+  animation: grow 2s linear infinite;
+}
+
+@keyframes grow {
+  to {
+    font-size: 1.2em;
   }
-  .review {
-    /* margin: 50px; */
-    background-color: rgb(160, 154, 154);
-    min-height: 200px;
-    /* text-align: center; */
-    color: rgb(37, 13, 13);
-  }
-  .review-view {
-    text-align: center;
-  }
-  
-  /* location,icons -Rose */
-  .review-view {
-    margin: auto;
-  }
-  .fa-star {
-    color: yellow;
-  }
-  
-  .form-link {
-    color: #3c50ff;
-    cursor: pointer;
-    animation: grow 2s linear infinite;
-  }
-  
-  @keyframes grow {
-    to {
-      font-size: 1.2em;
-    }
-  }
-  
-  .rating-t {
-    display: inline-block;
-  }
-  .review-view {
-    margin: auto;
-  }
-  .akanlocation{
-     position: relative;
-      height: 400px;
-  }
-  .akanlocation img{
-    padding-left: 50px;
-  }
-.locate{
+}
+
+.rating-t {
+  display: inline-block;
+}
+.review-view {
+  margin: auto;
+}
+.akanlocation {
+  position: relative;
+  height: 400px;
+}
+.akanlocation img {
+  padding-left: 50px;
+}
+.locate {
   text-align: center;
   color: #fff;
   font-size: 40px;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
 }
-.locationinfo{
-  float: right;
+*/ .locationinfo {
+  /*  float: right; */
   color: white;
-  font-size: 20px;
-  background-image:url(../pages/img/location.jpeg);
+  /* font-size: ; */
+  background-image: url(../pages/img/location.jpeg);
   background-size: cover;
   height: 350px;
-  width: 650px;
+  width: 40%;
   text-align: center;
-
 }
 
-
-
-
-
+iframe {
+  width: 40% !important;
+}
