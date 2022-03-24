@@ -138,6 +138,25 @@ nav button{
   .review-view {
     margin: auto;
   }
+  .fa-star {
+    color: yellow;
+  }
+  
+  .form-link {
+    color: #3c50ff;
+    cursor: pointer;
+    animation: grow 2s linear infinite;
+  }
+  
+  @keyframes grow {
+    to {
+      font-size: 1.2em;
+    }
+  }
+  
+  .rating-t {
+    display: inline-block;
+  }
   .akanlocation{
      position: relative;
       height: 400px;
