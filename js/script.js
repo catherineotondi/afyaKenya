@@ -97,8 +97,8 @@ $(document).ready(function () {
 
     let outputComments = (message, name) => {
       $("#feedbackOut").prepend(`
-          <div class="userOutContainer container">
-            <p class="userName">${name}</p>
+          <div class="userOutContainer border-bottom border-secondary container">
+            <p class="userName fw-bold pt-2">${name}</p>
             <p class="userComment">${message}</p>
           </div>
       `);
