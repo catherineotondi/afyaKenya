@@ -137,4 +137,6 @@ iframe{
 .rating-t {
   display: inline-block;
 }
-      
+.fa-star {
+  color: yellow;
+}   
